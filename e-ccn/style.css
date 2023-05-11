@@ -1,0 +1,487 @@
+
+body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}
+.desktop {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-color: rgba(26, 28, 33, 1);
+  border-style: solid;
+  border-width: 1px;
+  justify-content: flex-start;
+  background-color: rgba(26, 28, 33, 1);
+}
+.navbar {
+  top: 84px;
+  left: 20%;
+  width: 1027px;
+  height: 44px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.navbar1 {
+  top: 0px;
+  left: 20px;
+  width: 1027px;
+  height: 44px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.e-ccn {
+  top: 8px;
+  color: rgba(250, 250, 250, 1);
+  width: 100px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: 27.5px;
+  font-stretch: normal;
+  text-decoration: none;
+  color: #FFFFFF;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.about {
+  top: 8px;
+  left: 190px;
+  color: rgba(255, 255, 255, 1);
+  width: 70px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: 27.5px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home {
+  top: 8px;
+  left: 330px;
+  color: rgba(255, 255, 255, 1);
+  width: 60px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: 27.5px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.registerbt {
+  top: 0px;
+  left: 878px;
+  width: 149px;
+  height: 44px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.desktop1-rectangle21 {
+  top: 0px;
+  left: 0px;
+  width: 149px;
+  height: 44px;
+  position: absolute;
+}
+.register {
+  top: 8px;
+  left: 14px;
+  color: rgba(219, 217, 216, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: 27.5px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signingrp {
+  top: 0px;
+  left: 718px;
+  width: 149px;
+  height: 44px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 1);
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.signin {
+  top: 8px;
+  left: 23px;
+  color: rgba(0, 0, 0, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: 27.5px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.background {
+  top: 15%;
+  left: -327px;
+  width: 3072px;
+  height: 2271px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  /* align-self: auto; */
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.desktop1-glow3 {
+  top: 0px;
+  left: 391px;
+  width: 958px;
+  height: 958px;
+  /* position: absolute; */
+  border-color: transparent;
+}
+.desktop1-glow2 {
+  top: 59px;
+  left: 927px;
+  width: 100%;
+  height: 1145px;
+  opacity: 0.80;
+  position: right;
+  border-color: transparent;
+}
+.desktop1-glow {
+  left: 248px;
+  width: 100%;
+  bottom: -7px;
+  height: 1145px;
+  opacity: 0.40;
+  position: absolute;
+  border-color: transparent;
+}
+.desktop1-hero {
+  top: 220px;
+  left: 20%;
+  width: 1068.04541015625px;
+  height: 559px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-end;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.desktop1-pic {
+  top: 0px;
+  left: 436px;
+  width: 632.04541015625px;
+  height: 559px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.desktop1-object-other18 {
+  top: 0px;
+  left: 177.54083251953125px;
+  width: 454.5045471191406px;
+  height: 454.5045471191406px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.desktop1-object-other181 {
+  top: 0px;
+  left: 0px;
+  width: 455px;
+  height: 455px;
+  position: absolute;
+  border-color: transparent;
+}
+.desktop1-icon317 {
+  top: 129.85842895507812px;
+  left: 0px;
+  width: 429px;
+  height: 429px;
+  position: absolute;
+  border-color: transparent;
+}
+.text1 {
+  top: 135px;
+  color: rgba(255, 255, 255, 1);
+  width: 592px;
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text2 {
+  top: 323px;
+  left: 19px;
+  color: rgba(255, 255, 255, 1);
+  width: 373px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 27.5px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.lesgo {
+  color: var(--dl-color-gray-500);
+  box-shadow: rgb(145, 153, 222) 7px 5px 20px 0px;
+  font-family: Roboto;
+  line-height: 2;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: rgb(125, 159, 230);
+}
+.signingrp:hover {
+    box-shadow: inset 200px 0 0 0 #E4E7FF;
+    color: white;
+  }
+
+
+
+
+  .b-anim {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.b-anim:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.b-anim:active {
+    color: #000
+}
+
+.b-anim:active:after {
+    background: transparent;
+}
+
+.b-anim:hover:before {
+    opacity: 1;
+}
+
+.b-anim:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #551e5a;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.e-ccn {
+  background: linear-gradient(0deg, slateblue, slateblue) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%;
+}
+.e-ccn:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+}
+.e-ccn {
+  padding-bottom: 2px;
+  --bg-h: 2px;}
+
+
+/*####################*/
+.about {
+  background: linear-gradient(0deg, slateblue, slateblue) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%;
+}
+.about:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+}
+.about {
+  padding-bottom: 2px;
+  --bg-h: 2px;}
+
+/*################*/
+.home {
+  background: linear-gradient(0deg, slateblue, slateblue) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%;
+}
+.home:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+}
+.home {
+  padding-bottom: 2px;
+  --bg-h: 2px;}
